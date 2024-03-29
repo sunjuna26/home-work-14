@@ -1,0 +1,139 @@
+/*===common css start===*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.text-justify{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-justify {
+    text-align: justify;
+}
+
+/*===common css end===*/
+/*== top bar section css start ==*/
+#top_bar {
+    background-color: #0f2f44;
+    color:aliceblue;
+    justify-content: space-between;
+}
+/*== top bar section css end ==*/
+/*=== nav saction css start===*/
+
+#nav .container{
+    justify-content: space-between;
+        align-items: center;
+    }
+    #nav{
+        background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    ul{
+        list-style-type: none;
+    }
+    #nav li a{
+        font-size: 12px;
+        line-height: 59px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color:black;
+        padding: 21px 25px;
+        display: inline-block;
+    }
+    #nav li a:hover{
+        color: rgba(242, 255, 0, 0.861);
+    }
+    /*=== nav section css end===*/
+    /*==banner section css start==*/
+#banner{
+    background-size: cover;
+    height: 300px;
+    text-align: left;
+    color:black;
+}
+.row{
+    display: flex;
+}
+.container{
+    margin: auto;
+}
+
+#banner h1{
+ font-size: 68px;
+ line-height: 75px;
+ text-transform: uppercase; 
+ font-weight: 800;
+}
+#banner h5{
+    color: #0f2f44;
+}
+#banner p{
+ font-size: 18px;
+ line-height: 33px;
+ display: flex;  
+}
+#banner img{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    
+}
+#banner a{
+    background-color: #0f2f44;
+    color: aliceblue;
+    height: 100px ;
+    width: 50px;
+    padding: 5px;
+    text-transform: uppercase
+}
+#banner a :hover{
+    height: 100px;
+    color: red;
+    
+}
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+}
+.banner-btn{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+
+/*== banner section css end==*/
